@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="shortcut icon" href="../images/task-management-icon-23.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Main css-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- Edit css-->
+    <link rel="stylesheet" href="../css/edit.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h4><a href="index.html" id="a">Weather</a></h4>
+        </nav>
+    </header>
+    <div class="container-main">
+        <div class="form-container">
+            <form class="task-form">
+                <h4>My Task List</h4>
+                <div class="form-control">
+                    <input class="task-input" type="text" placeholder="Enter new Task..." />
+                    <button class="btn submit-btn" type="submit">Add Task</button>
+                </div>
+                <div class="form-alert"></div>
+            </form>
+        </div>
+        <section class="tasks-container">
+            <p class="loading-text"></p>
+            <div class="tasks"></div>
+        </section>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/app_main.js"></script>
+</body>
+</html>
