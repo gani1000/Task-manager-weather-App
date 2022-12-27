@@ -28,9 +28,11 @@ start the project
  
 # project layout
 
-Task Manager 
+Task Manager
 
-![Capture](https://user-images.githubusercontent.com/107857762/209687126-9b569c86-690d-4d58-a87d-f6b239aafb3f.PNG)
+![Capture](https://user-images.githubusercontent.com/107857762/209687392-478bbd69-a49c-4a4f-b5a5-8a20f3d4d20f.PNG)
+ 
+
 
 Weather App
 
