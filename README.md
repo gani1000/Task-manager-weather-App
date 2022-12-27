@@ -16,8 +16,7 @@ then
 .env
 
     MONGO_URI=
-    JWT_SECRET=
-    JWT_LIFETIME=
+    API_KEY=
 
 start the project
 
