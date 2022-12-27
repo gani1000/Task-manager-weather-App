@@ -4,11 +4,12 @@
 Starter
 
 The starter.
-Setup
 
-    install dependencies
+run
 
-npm install
+    npm install
+
+then
 
     create .env and provide correct values
 
@@ -24,5 +25,5 @@ start the project
 
 # Tools
 
- build using Node.js, express.js, JWT Auth0, MongoDB, JS, HTML, CSS
+ build using Node.js, express.js, MongoDB, JS, HTML, CSS
  
